@@ -3,216 +3,86 @@
 }
 .checkBtn{
     display: none;
-    cursor: pointer;
-    font-size: 23px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    margin-right: 10px;
 }
-
-/* navcontainer start */
-@media(max-width:456px){
-    .navContainer{
-        width: 100%;
-    }
+/* navContainer */
+@media(max-width:576px){
     .navLinks{
         display: none;
         position: absolute;
-        margin-top: 95%;
-        padding: 20px 10px 20px;
-        color: rgb(101, 95, 95);
-        /* height: 50%; */
+        margin-top: 120%;
+        margin-left: 10px;
+        height: 66%;
+        background-color: black;
         width: 100%;
     }
     .navSection{
-        background-color: white;
-        height: 15vh;
-    }
-    .logo img{
-        margin-left: 30px;
-        margin-top:20px;
-        margin-bottom: 15px;
+        border-bottom: 0.1px solid white;
     }
     .checkBtn{
         display: block;
-        margin-right: 20px;
-        color: black;
     }
     #check:checked ~ .navLinks{
         display: block;
-        background-color: rgb(43, 42, 42);
-        color: white;
-    }
-    .Inquire{
-        display: none;
     }
     .navLinks li{
-        margin-bottom: 20px;
-        cursor: pointer;
+        padding: 10px;
     }
-    .navLinks button{
-        background-color: white;
-    }
-    .heroContainer{
-        width: 100%;
+    
+}
+
+@media(max-width:576px){
+    .jumbotron{
+        flex-direction: column;
     }
     .jumbotron h1{
-        font-size: 40px;
-    }
-    
-}
-/* navcontainer end */
-
-
-/* brightfuture-Container Start */
-@media(max-width:456px){
-    .brightfuture-Content{
-        flex-direction: column;
-        margin-left: 45px;
-    }
-    .brightfuture-Content p{
-        width: 100%;
-    }
-    .brightfuture-Section h1{
-       padding: 10px 20px;
         font-size: 30px;
-    }
-} 
-/* brightfuture-Container end */
-
-
-/* childcoding-Container start */
-@media(max-width:456px){
-   .childcoding-Section p{
-        width: 90%;
-        margin-left: 30px;
-    }
-    .formSection1 , .formSection2 , .formSection3{
-        width: 350px;
-    }
-    .formSection{
-        width:60%;
-    }
-    .input-box button{
-        width: 60%;
-        font-size: 13px;
-    } 
-    .formSection1 .input-box i{
-        font-size: 10px;
-    }
-    .input-box i{ 
-        font-size: 5px;
-        background-color:rgb(79, 199, 239);
-        border-radius: 50%;
-        color: white;
-        padding: 10px;
-        margin-bottom: 10px;
-    } 
-    .formSection h1{
-        font-size: 20px;
-    }
-}
-/* childcoding-container end */
-
-
-/* whyus-Container start */
-@media(max-width:456px){
-    
-    .whyus-Container{
-        width: 100%;
-        padding: 10px;
-    } 
-} 
-/* whyus-Container end */
-
-
-/* codejourney-container start */
-@media(max-width:456px){
-    .codejourney-Section button{
-        padding: 15px ;
         width: 80%;
     }
-}
-/* codejourney-container end */
-
-
-/* subject-container start */
-@media(max-width:456px){
-    .subject-Content{
-        width: 100%;
-        margin-left: 2px; 
+    .heroSection{
+        padding: 20px;
     }
-    .box img{
-        width: 280px;
-        background-color: white;
-        padding-top: 15px;
+    .hero-image img{
+        padding: 30px 120px 0;
     }
-    .box{
-        width: 310px;
-        background-color: white;
-        border-radius: 5px;
-    }
-}
-/* subject-container end */
-
-
-/* curriculum-Section start */
-@media(max-width:456px){
-    .curriculum-Section p{
-        width: 90%;
-        margin-left: 15px;
-    }
-    .curriculum-Section img{
-        width: 350px;
-    }
-}
-/*curriculum-Section end */
-
-/* pedagogy-Section start */
-@media(max-width:456px){
-    .pedagogy-Section p{
-        width:100% ;
-        margin-left: 5px;
-    }
-    .pedagogy-Section img{
-        width: 350px;
-    }
-    .pedagogy-Section button{
-        width: 90%;
-    }
-}
-/* pedagogy-Section end */
-
-
-/* footer container start */
-@media(max-width:456px){
-    .footer-Section{
+    .aboutSection{
         flex-direction: column;
-    }
-    .Quick-Links, .contactDetails{
-        margin-right: 120px;
-    }
-    .companyAddress{
-        margin-bottom: 40px;
-    }
-    .Quick-Links{
-        margin-bottom: 40px;
-    }
-    .contactDetails{
-        width: 70%;
-        margin-left: 45px;
-    }
-    .copyWrites{
-        width: 80%;
-        flex-direction: column;
-        margin-left: 5px;
-    }
-    .cp2{
-        margin-left: 100px;
-        margin-top: 7px;
-    }
-    .contact-Icons h2{
         width: 100%;
+        padding-left: 10px;
     }
-    .contact-Menu button{
-        width: 100%;
+    .about-Image img{
+        padding: 10px 200px 0; 
     }
+    .cardContainer{
+        padding:50px 10px;
+    }
+    .ss-Box{
+        padding: 40px 70px 20px;
+    }
+   .pro-cardContainer{
+        padding: 20px 12px 20px;
+   }
+   .pro-Card{
+        width:85%;
+   }
+   .table{
+    padding: 20px 7px 20px;
+   }
+   .tfbox1 , .tfbox2{
+    width: 436px;
+   }
+   .table button{
+    width: 435px;
+   }
+   .footerContainer{
+    padding: 20px 80px 40px;
+   }
+   .footerSection{
+    flex-direction: column;
+    line-height: 3rem;
+   }
 }
-/* footer container end */
