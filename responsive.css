@@ -1,88 +1,15 @@
-#check{
-    display: none;
-}
-.checkBtn{
-    display: none;
-    padding: 5px 10px;
-    font-size: 20px;
-    border: 0.5px solid white;
-    border-radius: 10px;
-    margin-right: 10px;
-}
-/* navContainer */
-@media(max-width:576px){
-    .navLinks{
-        display: none;
-        position: absolute;
-        margin-top: 120%;
-        margin-left: 10px;
-        height: 66%;
-        background-color: black;
-        width: 100%;
-    }
-    .navSection{
-        border-bottom: 0.1px solid white;
-    }
-    .checkBtn{
-        display: block;
-    }
-    #check:checked ~ .navLinks{
-        display: block;
-    }
-    .navLinks li{
-        padding: 10px;
-    }
-    
-}
 
 @media(max-width:576px){
-    .jumbotron{
-        flex-direction: column;
-    }
-    .jumbotron h1{
-        font-size: 30px;
+    .petshop-Container{
         width: 80%;
+        margin:30px 70px;
     }
-    .heroSection{
-        padding: 20px;
+   
+    .search-result img{
+        width: 250px;
     }
-    .hero-image img{
-        padding: 30px 120px 0;
+    button{
+        margin:50px 50px;
     }
-    .aboutSection{
-        flex-direction: column;
-        width: 100%;
-        padding-left: 10px;
-    }
-    .about-Image img{
-        padding: 10px 200px 0; 
-    }
-    .cardContainer{
-        padding:50px 10px;
-    }
-    .ss-Box{
-        padding: 40px 70px 20px;
-    }
-   .pro-cardContainer{
-        padding: 20px 12px 20px;
-   }
-   .pro-Card{
-        width:85%;
-   }
-   .table{
-    padding: 20px 7px 20px;
-   }
-   .tfbox1 , .tfbox2{
-    width: 436px;
-   }
-   .table button{
-    width: 435px;
-   }
-   .footerContainer{
-    padding: 20px 80px 40px;
-   }
-   .footerSection{
-    flex-direction: column;
-    line-height: 3rem;
-   }
+    
 }
